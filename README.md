@@ -1,5 +1,7 @@
 # Bulk Airdrop
 
+**Disclaimer**: This script was written quickly & not tested thoroughly. There are probably bugs. If you find some & feel so inclined, PRs for fixes are welcomed 🙂
+
 Tired of repeatedly typing solana airdrop? Well, now you don't have to 🤝
 
 You can use this script to make the process a little less painful. Still, please be mindful and don't infinitely airdrop yourself devnet/testnet SOL.
@@ -10,7 +12,7 @@ Note: this might be obvious to some, but you cannot airdrop yourself SOL on main
 
 1. Clone the repo
 2. Run `yarn`
-3. Done! That wasn't too painful.
+3. Done! That (hopefully) wasn't too painful.
 
 Now, you should be able to run the following command to get some SOL:
 
