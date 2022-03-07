@@ -86,7 +86,7 @@ programCommand("bulk_airdrop")
         const transaction = new Transaction().add(
           SystemProgram.transfer({
             fromPubkey: transientReceiver.publicKey,
-            toPubkey: destination,
+            toPubkey: _destination,
             lamports: transientReceiverFunds,
           })
         );
@@ -97,7 +97,7 @@ programCommand("bulk_airdrop")
         await conn.confirmTransaction(signature);
 
         console.log(
-          `sent ${transientReceiverFunds} lamports to wallet [${destination.toString()}]: ${signature}`
+          `sent ${transientReceiverFunds} lamports to wallet [${_destination.toString()}]: ${signature}`
         );
       }
     }
